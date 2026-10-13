@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480" fill="none">
+  <!-- Background Grid Canvas -->
+  <rect width="400" height="480" fill="#151515"/>
+  <defs>
+    <pattern id="grid-8" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#252525" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="480" fill="url(#grid-8)"/>
+
+  <!-- Technical Framing -->
+  <rect x="16" y="16" width="368" height="448" fill="none" stroke="#333333" stroke-width="1"/>
+  <line x1="16" y1="44" x2="384" y2="44" stroke="#333333" stroke-width="1"/>
+  <line x1="16" y1="436" x2="384" y2="436" stroke="#333333" stroke-width="1"/>
+
+  <!-- Top Metadata -->
+  <text x="28" y="34" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#9747FF" letter-spacing="1.5">ID: DPW-JB-008</text>
+  <text x="372" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#D7FF35">STATUS: SAMPLE</text>
+
+  <!-- Crosshairs -->
+  <path d="M 30 58 L 30 68 M 25 63 L 35 63" stroke="#D7FF35" stroke-width="1.5"/>
+  <path d="M 370 58 L 370 68 M 365 63 L 375 63" stroke="#D7FF35" stroke-width="1.5"/>
+  <path d="M 30 415 L 30 425 M 25 420 L 35 420" stroke="#9747FF" stroke-width="1.5"/>
+  <path d="M 370 415 L 370 425 M 365 420 L 375 420" stroke="#9747FF" stroke-width="1.5"/>
+
+  <!-- Stylized Wireframe Silhouette / Abstract Brutalist Headform -->
+  <g transform="translate(100, 90)">
+    <!-- Radar ring -->
+    <circle cx="100" cy="110" r="85" stroke="#2B2B2B" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="100" cy="110" r="60" stroke="#383838" stroke-width="1"/>
+    
+    <!-- Geometric Head & Shoulders wireframe -->
+    <polygon points="100,20 145,55 135,115 65,115 55,55" fill="#1C1C1C" stroke="#9747FF" stroke-width="1.5"/>
+    <polygon points="100,20 135,115 100,105 65,115" fill="#222222" stroke="#444444" stroke-width="1"/>
+    <line x1="100" y1="20" x2="100" y2="105" stroke="#D7FF35" stroke-width="1"/>
+
+    <!-- Torso wireframe -->
+    <polygon points="40,140 160,140 185,225 15,225" fill="#1A1A1A" stroke="#555555" stroke-width="1.5"/>
+    <line x1="100" y1="140" x2="100" y2="225" stroke="#9747FF" stroke-width="1.5"/>
+    <line x1="70" y1="140" x2="50" y2="225" stroke="#333333" stroke-width="1"/>
+    <line x1="130" y1="140" x2="150" y2="225" stroke="#333333" stroke-width="1"/>
+  </g>
+
+  <!-- Technical Status Banner: IMAGE_NOT_AVAILABLE -->
+  <rect x="50" y="345" width="300" height="42" fill="#101010" stroke="#9747FF" stroke-width="1.5"/>
+  <rect x="54" y="349" width="6" height="34" fill="#D7FF35"/>
+  <text x="70" y="371" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#F7F7F7" letter-spacing="2">IMAGE_NOT_AVAILABLE</text>
+  <text x="70" y="382" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500" fill="#9747FF">// UPLOAD OFFICIAL PORTRAIT</text>
+
+  <!-- Bottom Technical Footer -->
+  <text x="28" y="452" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600" fill="#777777" letter-spacing="1">ROLE_SLOT: KETUA KOMITE IV</text>
+  <text x="372" y="452" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600" fill="#777777">NODE_INDEX: [08]</text>
+</svg>

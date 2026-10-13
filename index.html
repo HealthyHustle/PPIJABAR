@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPW Pemuda Parlemen Indonesia — Provinsi Jawa Barat | Official Portal</title>
+  <meta name="description" content="Website Resmi Dewan Pengurus Wilayah Pemuda Parlemen Indonesia Provinsi Jawa Barat. Wadah kolaborasi, kepemimpinan, dan aspirasi pemuda Jawa Barat.">
+  <meta name="keywords" content="DPW PPI Jawa Barat, Pemuda Parlemen Indonesia, Jawa Barat, Parlemen Muda, Kepemudaan, Demokrasi, Kolaborasi">
+  <meta name="author" content="DPW Pemuda Parlemen Indonesia Jawa Barat">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="Gambar/ppi logo.jpeg">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="navbar-grid">
+        <!-- Kiri: Brand & Logo Slot -->
+        <a href="#hero" class="nav-brand" aria-label="Beranda DPW PPI Jawa Barat">
+          <div class="brand-logo-frame">
+            <img src="Gambar/ppi logo.jpeg" alt="Logo Resmi DPW Pemuda Parlemen Indonesia Jawa Barat" class="nav-brand-logo" width="46" height="46">
+            <div class="brand-text-block">
+              <span class="brand-code">PPI_JABAR</span>
+              <span class="brand-sub">DPW PROVINSI JAWA BARAT</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Tengah: Menu Navigasi Desktop dengan Separator '/' -->
+        <nav aria-label="Navigasi Utama">
+          <ul class="nav-menu-desktop">
+            <li class="nav-item"><a href="#hero" class="nav-link active">HOME</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#direction" class="nav-link">VISION / MISSION</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#structure" class="nav-link">STRUCTURE</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#committees" class="nav-link">COMMITTEES</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#documentation" class="nav-link">DOCUMENTATION</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#location" class="nav-link">LOCATION</a></li>
+            <li class="nav-separator" aria-hidden="true">/</li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <!-- Kanan: Status Sistem & Tombol Aksi -->
+        <div class="nav-status-actions">
+          <div class="nav-status-meta" aria-label="Status Sistem Organisasi">
+            <span>WEST JAVA / ID</span>
+            <span class="nav-status-active">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              STATUS: ACTIVE
+            </span>
+          </div>
+
+          <a href="#about" class="btn-brutalist nav-btn-explore">
+            <span>EXPLORE</span>
+            <span class="arrow-purple">↗</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Buka Menu Navigasi Mobile" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="#hero" class="mobile-nav-link"><span>HOME</span><span class="menu-num">/01</span></a></li>
+      <li><a href="#about" class="mobile-nav-link"><span>ABOUT</span><span class="menu-num">/02</span></a></li>
+      <li><a href="#direction" class="mobile-nav-link"><span>VISION & MISSION</span><span class="menu-num">/03</span></a></li>
+      <li><a href="#structure" class="mobile-nav-link"><span>STRUCTURE</span><span class="menu-num">/04</span></a></li>
+      <li><a href="#committees" class="mobile-nav-link"><span>COMMITTEES</span><span class="menu-num">/05</span></a></li>
+      <li><a href="#documentation" class="mobile-nav-link"><span>DOCUMENTATION</span><span class="menu-num">/06</span></a></li>
+      <li><a href="#location" class="mobile-nav-link"><span>LOCATION</span><span class="menu-num">/07</span></a></li>
+      <li><a href="#contact" class="mobile-nav-link"><span>CONTACT</span><span class="menu-num">/08</span></a></li>
+    </ul>
+
+    <div class="mobile-nav-footer">
+      <div class="tech-tag">
+        <span class="pulse-dot"></span> REGIONAL NODE: WEST JAVA [ID-JB]
+      </div>
+      <a href="#contact" class="btn-brutalist" style="width: 100%; justify-content: center;">
+        <span>ESTABLISH CONNECTION</span>
+        <span class="arrow-purple">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         SECTION /01 — HERO
+         ========================================================================== -->
+    <section class="section-block" id="hero" aria-label="Hero - Profil Organisasi">
+      <div class="container grid-border-container">
+        <div class="hero-grid">
+          <!-- Sisi Kiri: Teks & Metadata Editorial -->
+          <div class="hero-content-col">
+            <div class="hero-meta-top">
+              <span class="tech-tag purple">/01 — ORGANIZATION PROFILE</span>
+              <span class="tech-tag dark-outline">NODE_01 // JABAR</span>
+            </div>
+
+            <div class="hero-headline-group">
+              <h1 class="hero-title">
+                DEWAN PENGURUS WILAYAH<br>
+                <span class="title-accent text-gradient-blue">PEMUDA PARLEMEN INDONESIA</span><br>
+                PROVINSI JAWA BARAT
+              </h1>
+
+              <div class="hero-subheading">
+                YOUTH. DEMOCRACY. COLLABORATION.
+              </div>
+
+              <p class="hero-description">
+                Wadah kolaborasi pemuda untuk mengembangkan kepemimpinan, menyuarakan aspirasi, dan mendorong kontribusi nyata bagi masyarakat Jawa Barat.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#about" class="btn-brutalist">
+                  <span>EXPLORE ORGANIZATION</span>
+                  <span class="arrow-purple">↗</span>
+                </a>
+                <a href="#structure" class="btn-brutalist-outline">
+                  <span>VIEW STRUCTURE</span>
+                  <span>[↗]</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-telemetry-bar">
+              <div class="telemetry-item">
+                <span>LAT / LNG COORDINATES</span>
+                <strong>6.9175° S, 107.6191° E</strong>
+              </div>
+              <div class="telemetry-item">
+                <span>REGIONAL STATUS</span>
+                <strong>PROVINSI JAWA BARAT</strong>
+              </div>
+              <div class="telemetry-item">
+                <span>FOUNDATION PILLAR</span>
+                <strong>CIVIC ENGAGEMENT</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sisi Kanan: Objek 3D Geometris Abstrak & Wireframe Matrix -->
+          <div class="hero-visual-col" aria-hidden="true">
+            <!-- Ornamen Crosshairs di 4 Sudut -->
+            <span class="crosshair-ornament ch-tl">+</span>
+            <span class="crosshair-ornament ch-tr">+</span>
+            <span class="crosshair-ornament ch-bl">+</span>
+            <span class="crosshair-ornament ch-br">+</span>
+
+            <div class="hero-visual-topbar">
+              <span class="tech-tag purple">// SCN_01</span>
+              <span>GRID_MATRIX: 3D_ISOMETRIC</span>
+              <span class="tech-tag lime">SYSTEM_ACTIVE</span>
+            </div>
+
+            <div class="hero-canvas-wrap">
+              <!-- SVG Visual 3D Abstract Floating Artwork (Nexora Modern SaaS Style) -->
+              <svg class="isometric-matrix-svg" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D Abstract Nexora Illustration DPW PPI Jawa Barat">
+                <defs>
+                  <!-- Soft Drop Shadows -->
+                  <filter id="nx-shadow-main" x="-20%" y="-20%" width="150%" height="150%">
+                    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#3267F5" flood-opacity="0.22" />
+                  </filter>
+                  <filter id="nx-shadow-card" x="-20%" y="-20%" width="150%" height="150%">
+                    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#141821" flood-opacity="0.08" />
+                  </filter>
+                  <filter id="nx-shadow-sm" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#3267F5" flood-opacity="0.18" />
+                  </filter>
+                  <filter id="nx-blur-bg" x="-30%" y="-30%" width="160%" height="160%">
+                    <feGaussianBlur stdDeviation="40" />
+                  </filter>
+
+                  <!-- Gradients -->
+                  <!-- Ambient Soft Glow -->
+                  <radialGradient id="nx-ambient-glow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#DCE9FF" stop-opacity="0.8" />
+                    <stop offset="60%" stop-color="#EEF4FF" stop-opacity="0.4" />
+                    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+                  </radialGradient>
+
+                  <!-- Primary 3D Blue Sphere Gradient (Specular Highlight to Deep Blue) -->
+                  <radialGradient id="nx-sphere-primary" cx="35%" cy="30%" r="65%" fx="30%" fy="25%">
+                    <stop offset="0%" stop-color="#FFFFFF" />
+                    <stop offset="18%" stop-color="#7EA5FF" />
+                    <stop offset="55%" stop-color="#3267F5" />
+                    <stop offset="85%" stop-color="#1E47B8" />
+                    <stop offset="100%" stop-color="#11296E" />
+                  </radialGradient>
+
+                  <!-- Secondary White Pearl 3D Sphere -->
+                  <radialGradient id="nx-sphere-white" cx="35%" cy="30%" r="65%" fx="28%" fy="24%">
+                    <stop offset="0%" stop-color="#FFFFFF" />
+                    <stop offset="35%" stop-color="#F4F7FC" />
+                    <stop offset="70%" stop-color="#DCE9FF" />
+                    <stop offset="100%" stop-color="#B3CCF7" />
+                  </radialGradient>
+
+                  <!-- Cyan / Soft Blue Accent Orb -->
+                  <radialGradient id="nx-sphere-accent" cx="32%" cy="28%" r="65%" fx="26%" fy="22%">
+                    <stop offset="0%" stop-color="#E8F1FF" />
+                    <stop offset="30%" stop-color="#5B8DFF" />
+                    <stop offset="75%" stop-color="#2555D1" />
+                    <stop offset="100%" stop-color="#163893" />
+                  </radialGradient>
+
+                  <!-- Ring Gradient -->
+                  <linearGradient id="nx-ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#3267F5" stop-opacity="0.85" />
+                    <stop offset="50%" stop-color="#5B8DFF" stop-opacity="0.2" />
+                    <stop offset="100%" stop-color="#DCE9FF" stop-opacity="0.8" />
+                  </linearGradient>
+
+                  <!-- Card Glass Gradient -->
+                  <linearGradient id="nx-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+                    <stop offset="100%" stop-color="#F7F9FC" stop-opacity="0.9" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Ambient Light Aura -->
+                <circle cx="260" cy="260" r="190" fill="url(#nx-ambient-glow)" filter="url(#nx-blur-bg)" />
+
+                <!-- Concentric Soft Orbits / Radar Rings (Nexora Soft Architecture) -->
+                <ellipse cx="260" cy="260" rx="210" ry="120" stroke="#E8EDF5" stroke-width="1.5" stroke-dasharray="6 6" transform="rotate(-18 260 260)" />
+                <ellipse cx="260" cy="260" rx="160" ry="85" stroke="url(#nx-ring-grad)" stroke-width="2" transform="rotate(-18 260 260)" />
+                
+                <!-- Floating Back Sphere (White Pearl) -->
+                <g filter="url(#nx-shadow-sm)">
+                  <circle cx="395" cy="145" r="44" fill="url(#nx-sphere-white)" />
+                  <ellipse cx="385" cy="135" rx="14" ry="8" fill="#FFFFFF" opacity="0.6" transform="rotate(-25 385 135)" />
+                </g>
+
+                <!-- Floating Micro Orb (Accent Blue) -->
+                <circle cx="120" cy="150" r="16" fill="url(#nx-sphere-accent)" filter="url(#nx-shadow-sm)" />
+                <circle cx="430" cy="380" r="22" fill="url(#nx-sphere-primary)" filter="url(#nx-shadow-sm)" />
+
+                <!-- Primary Floating 3D Nexus Sphere (Central Hero Visual) -->
+                <g filter="url(#nx-shadow-main)">
+                  <circle cx="260" cy="255" r="92" fill="url(#nx-sphere-primary)" />
+                  <!-- Specular Glass Light Reflection -->
+                  <ellipse cx="236" cy="225" rx="38" ry="20" fill="#FFFFFF" opacity="0.45" transform="rotate(-20 236 225)" />
+                  <ellipse cx="228" cy="216" rx="16" ry="8" fill="#FFFFFF" opacity="0.75" transform="rotate(-20 228 216)" />
+                </g>
+
+                <!-- Floating Torus Ring foreground section -->
+                <path d="M 125 305 C 160 355 350 375 415 315" stroke="url(#nx-ring-grad)" stroke-width="3" stroke-linecap="round" />
+
+                <!-- Floating Left Mini Card (SaaS Pill/Card) -->
+                <g filter="url(#nx-shadow-card)">
+                  <rect x="52" y="275" width="168" height="64" rx="16" fill="url(#nx-card-bg)" stroke="#E8EDF5" stroke-width="1.2" />
+                  <circle cx="78" cy="307" r="14" fill="#EEF4FF" />
+                  <path d="M 73 307 L 77 311 L 84 303" stroke="#3267F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <text x="100" y="302" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#141821">DPW PPI JABAR</text>
+                  <text x="100" y="318" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="500" fill="#667085">PARLEMEN MUDA</text>
+                </g>
+
+                <!-- Floating Right Metric Card (SaaS Stat Card) -->
+                <g filter="url(#nx-shadow-card)">
+                  <rect x="315" y="195" width="164" height="62" rx="16" fill="url(#nx-card-bg)" stroke="#E8EDF5" stroke-width="1.2" />
+                  <circle cx="339" cy="226" r="14" fill="#3267F5" />
+                  <!-- Sparkle / Star Icon -->
+                  <path d="M 339 219 L 341 224 L 346 226 L 341 228 L 339 233 L 337 228 L 332 226 L 337 224 Z" fill="#FFFFFF" />
+                  <text x="361" y="221" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#141821">KOLABORASI</text>
+                  <text x="361" y="237" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#3267F5">27 KAB / KOTA</text>
+                </g>
+
+                <!-- Floating Top Pill Badge -->
+                <g filter="url(#nx-shadow-card)">
+                  <rect x="185" y="85" width="150" height="34" rx="17" fill="#FFFFFF" stroke="#DCE9FF" stroke-width="1.2" />
+                  <circle cx="203" cy="102" r="4" fill="#3267F5" />
+                  <text x="215" y="106" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#3267F5" letter-spacing="0.5">EST. 2024–2026</text>
+                </g>
+
+                <!-- Delicate Floating Light Flares / Sparks -->
+                <circle cx="205" cy="190" r="3" fill="#5B8DFF" opacity="0.8" />
+                <circle cx="340" cy="325" r="4" fill="#3267F5" opacity="0.6" />
+                <circle cx="170" cy="385" r="2.5" fill="#5B8DFF" opacity="0.7" />
+              </svg>
+            </div>
+
+            <div class="hero-visual-footer">
+              <div class="visual-logo-slot">
+                <img src="Gambar/ppi logo.jpeg" alt="Logo PPI Jabar" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; border: 1.5px solid var(--primary-blue);">
+                <span class="logo-badge">PPI_JABAR</span>
+                <span>OFFICIAL_NODE</span>
+              </div>
+              <div style="text-align: right;">
+                <span>GRID_STABLE // 60 FPS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /02 — ABOUT US
+         ========================================================================== -->
+    <section class="section-block alt-bg" id="about" aria-labelledby="about-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/02 — ABOUT THE ORGANIZATION</span>
+          <span class="section-node-label">// REGIONAL_MISSION // SCN_02</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="about-title">
+            MORE THAN AN ORGANIZATION.<br>
+            A PLATFORM FOR YOUTH ASPIRATION.
+          </h2>
+          <p class="section-subheading">
+            Membangun generasi pemuda kritis, solutif, dan berdampak bagi kemajuan tatakelola daerah di Jawa Barat.
+          </p>
+        </div>
+
+        <div class="about-narrative-box">
+          <p class="about-lead-text">
+            Dewan Pengurus Wilayah Pemuda Parlemen Indonesia Provinsi Jawa Barat merupakan wadah pengembangan kepemimpinan dan partisipasi pemuda dalam kehidupan demokrasi. Melalui diskusi, kajian isu strategis, kolaborasi, dan kegiatan edukatif, organisasi mendorong generasi muda untuk mengembangkan gagasan serta berkontribusi terhadap pembangunan daerah.
+          </p>
+        </div>
+
+        <!-- 3 Panel Modular dengan Garis Pembatas dan Ikon Geometris Minimalis -->
+        <div class="about-panels-grid">
+          <div class="about-panel">
+            <div class="about-panel-header">
+              <div class="about-panel-icon" aria-hidden="true">
+                <!-- Geometric Icon: Diamond / Prism Leader -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <polygon points="12,2 22,12 12,22 2,12"/>
+                  <circle cx="12" cy="12" r="3" fill="#9747FF"/>
+                </svg>
+              </div>
+              <div class="about-panel-num">01 / YOUTH LEADERSHIP</div>
+              <h3 class="about-panel-title">KEPEMIMPINAN</h3>
+            </div>
+            <div class="about-panel-body">
+              <p>Pengembangan kapasitas kepemimpinan, integritas, dan tanggung jawab generasi muda.</p>
+            </div>
+          </div>
+
+          <div class="about-panel">
+            <div class="about-panel-header">
+              <div class="about-panel-icon" aria-hidden="true">
+                <!-- Geometric Icon: Radar / Aspiration Wave -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <path d="M4 12 A8 8 0 0 1 20 12"/>
+                  <path d="M7 12 A5 5 0 0 1 17 12"/>
+                  <line x1="12" y1="12" x2="12" y2="22"/>
+                  <circle cx="12" cy="12" r="2" fill="#D7FF35"/>
+                </svg>
+              </div>
+              <div class="about-panel-num">02 / PUBLIC ASPIRATION</div>
+              <h3 class="about-panel-title">ASPIRASI PUBLIK</h3>
+            </div>
+            <div class="about-panel-body">
+              <p>Ruang diskusi dan penyampaian aspirasi yang konstruktif.</p>
+            </div>
+          </div>
+
+          <div class="about-panel">
+            <div class="about-panel-header">
+              <div class="about-panel-icon" aria-hidden="true">
+                <!-- Geometric Icon: Interconnected Nodes / Collaboration -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <rect x="3" y="3" width="6" height="6"/>
+                  <rect x="15" y="3" width="6" height="6"/>
+                  <rect x="9" y="15" width="6" height="6"/>
+                  <line x1="6" y1="9" x2="12" y2="15"/>
+                  <line x1="18" y1="9" x2="12" y2="15"/>
+                </svg>
+              </div>
+              <div class="about-panel-num">03 / COLLABORATIVE ACTION</div>
+              <h3 class="about-panel-title">AKSI KOLABORATIF</h3>
+            </div>
+            <div class="about-panel-body">
+              <p>Kolaborasi dan kontribusi nyata untuk masyarakat Jawa Barat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /03 — VISION & MISSION
+         ========================================================================== -->
+    <section class="section-block" id="direction" aria-labelledby="direction-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/03 — OUR DIRECTION</span>
+          <span class="section-node-label">// STRATEGIC_FRAMEWORK</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="direction-title">VISION IS THE BLUEPRINT.</h2>
+          <p class="section-subheading">
+            Arah gerak strategis organisasi sebagai panduan pelaksanaan fungsi dan perumusan gagasan kepemudaan.
+          </p>
+        </div>
+
+        <div class="direction-grid">
+          <!-- Panel Besar Vision -->
+          <div class="vision-hero-card">
+            <div>
+              <div class="vision-tag">
+                <span class="pulse-dot"></span>
+                <span>// BLUEPRINT_01: VISION</span>
+              </div>
+              <blockquote class="vision-statement">
+                “Menjadi wadah pengembangan pemuda yang berintegritas, kritis, inklusif, dan partisipatif dalam memperkuat demokrasi serta berkontribusi terhadap pembangunan Provinsi Jawa Barat.”
+              </blockquote>
+            </div>
+
+            <div class="vision-footer-meta">
+              <span>DOCUMENT_STATUS: DRAFT_OFFICIAL</span>
+              <span>PROV_NODE: JAWA_BARAT</span>
+            </div>
+          </div>
+
+          <!-- 4 Panel Mission Grid -->
+          <div class="mission-panels-grid">
+            <div class="mission-panel">
+              <div class="mission-panel-code">01 / LEADERSHIP</div>
+              <h3 class="mission-panel-title">KEPEMIMPINAN</h3>
+              <p>Mengembangkan kapasitas kepemimpinan, integritas, dan tanggung jawab pemuda.</p>
+            </div>
+
+            <div class="mission-panel">
+              <div class="mission-panel-code">02 / ASPIRATION</div>
+              <h3 class="mission-panel-title">ASPIRASI</h3>
+              <p>Mendorong penyampaian aspirasi dan dialog konstruktif mengenai isu masyarakat.</p>
+            </div>
+
+            <div class="mission-panel">
+              <div class="mission-panel-code">03 / CAPACITY BUILDING</div>
+              <h3 class="mission-panel-title">KAPASITAS</h3>
+              <p>Meningkatkan literasi kebijakan, pendidikan politik, dan keterampilan generasi muda.</p>
+            </div>
+
+            <div class="mission-panel">
+              <div class="mission-panel-code">04 / COLLABORATION</div>
+              <h3 class="mission-panel-title">KOLABORASI</h3>
+              <p>Membangun kolaborasi dengan institusi, komunitas, dan masyarakat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /04 — ORGANIZATIONAL STRUCTURE (KEY FEATURE)
+         ========================================================================== -->
+    <section class="section-block alt-bg" id="structure" aria-labelledby="structure-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/04 — ORGANIZATIONAL DIRECTORY</span>
+          <span class="section-node-label">// BOARD_NODES // 3D_INTERACTIVE</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="structure-title">MEET THE PEOPLE BEHIND THE MOVEMENT.</h2>
+          <p class="section-subheading">
+            Kenali pengurus DPW Pemuda Parlemen Indonesia Provinsi Jawa Barat. Klik kartu pengurus untuk membuka profil lengkap.
+          </p>
+        </div>
+
+        <!-- Filter & Search Controls -->
+        <div class="structure-control-bar">
+          <div class="structure-search-box">
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; margin-right: 0.5rem; color: var(--accent-purple);">// FIND:</span>
+            <input type="text" id="structure-search" placeholder="Cari nama, jabatan, daerah..." aria-label="Cari pengurus organisasi">
+          </div>
+
+          <div class="structure-filter-tabs">
+            <button type="button" class="filter-btn active" data-filter="ALL">SEMUA PENGURUS</button>
+            <button type="button" class="filter-btn" data-filter="BPH">BPH WILAYAH</button>
+            <button type="button" class="filter-btn" data-filter="KOMITE">KETUA KOMITE</button>
+          </div>
+        </div>
+
+        <div class="structure-notice-bar">
+          <span>[!] DEMO DATA: CONTOH STRUKTUR PENGURUS DAPAT DIUBAH SECARA MUDAH PADA FILE SCRIPT.JS</span>
+          <span class="tech-tag" style="font-size: 0.7rem;">FLIP_ACTION: TAP / CLICK CARD</span>
+        </div>
+
+        <!-- Flashcard Grid (Rendered via script.js with 3D Flip capability) -->
+        <div class="directory-grid" id="directory-grid" aria-live="polite">
+          <!-- Flashcards dynamically injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /05 — COMMITTEES
+         ========================================================================== -->
+    <section class="section-block" id="committees" aria-labelledby="committees-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/05 — CONFERENCE COMMITTEES</span>
+          <span class="section-node-label">// FOUR_SECTORS // SWISS_GRID</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="committees-title">FOUR SECTORS. ONE COLLECTIVE PURPOSE.</h2>
+          <p class="section-subheading">
+            Bidang kontribusi yang menjadi ruang pembahasan, pengembangan gagasan, dan penyampaian aspirasi selama konferensi.
+          </p>
+        </div>
+
+        <!-- 4 Panel Brutalist Grid -->
+        <div class="committees-grid">
+          <!-- Committee 01 -->
+          <div class="committee-panel">
+            <div>
+              <div class="committee-top">
+                <span class="committee-large-num">01</span>
+                <span class="committee-code-badge">SECTOR_01</span>
+              </div>
+              <div class="committee-icon-frame" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <path d="M3 21h18M5 21V7l7-4 7 4v14M10 9v4M14 9v4"/>
+                </svg>
+              </div>
+              <h3 class="committee-title">COMMITTEE 01 — PEMERINTAHAN</h3>
+              <p class="committee-desc">
+                Mengkaji tata kelola pemerintahan, kebijakan publik, demokrasi, dan hubungan kelembagaan.
+              </p>
+            </div>
+            <div class="committee-footer">
+              <span>EXPLORE SECTOR</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Committee 02 -->
+          <div class="committee-panel">
+            <div>
+              <div class="committee-top">
+                <span class="committee-large-num">02</span>
+                <span class="committee-code-badge">SECTOR_02</span>
+              </div>
+              <div class="committee-icon-frame" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+                  <path d="M12 6v6M9 9h6"/>
+                </svg>
+              </div>
+              <h3 class="committee-title">COMMITTEE 02 — PENDIDIKAN DAN KESEHATAN</h3>
+              <p class="committee-desc">
+                Mendorong perhatian terhadap kualitas pendidikan, literasi, akses layanan kesehatan, dan kesejahteraan generasi muda.
+              </p>
+            </div>
+            <div class="committee-footer">
+              <span>EXPLORE SECTOR</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Committee 03 -->
+          <div class="committee-panel">
+            <div>
+              <div class="committee-top">
+                <span class="committee-large-num">03</span>
+                <span class="committee-code-badge">SECTOR_03</span>
+              </div>
+              <div class="committee-icon-frame" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <polygon points="12 2 15 8.5 22 9.5 17 14.5 18.5 21.5 12 18 5.5 21.5 7 14.5 2 9.5 9 8.5 12 2"/>
+                </svg>
+              </div>
+              <h3 class="committee-title">COMMITTEE 03 — KEPEMUDAAN DAN PARIWISATA</h3>
+              <p class="committee-desc">
+                Mengembangkan potensi kepemudaan, kreativitas generasi muda, serta potensi pariwisata daerah.
+              </p>
+            </div>
+            <div class="committee-footer">
+              <span>EXPLORE SECTOR</span>
+              <span>→</span>
+            </div>
+          </div>
+
+          <!-- Committee 04 -->
+          <div class="committee-panel">
+            <div>
+              <div class="committee-top">
+                <span class="committee-large-num">04</span>
+                <span class="committee-code-badge">SECTOR_04</span>
+              </div>
+              <div class="committee-icon-frame" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h3 class="committee-title">COMMITTEE 04 — SOSIAL DAN KEMASYARAKATAN</h3>
+              <p class="committee-desc">
+                Mendorong kepedulian sosial, pemberdayaan masyarakat, solidaritas, dan penyelesaian persoalan sosial.
+              </p>
+            </div>
+            <div class="committee-footer">
+              <span>EXPLORE SECTOR</span>
+              <span>→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /06 — DOCUMENTATION
+         ========================================================================== -->
+    <section class="section-block alt-bg" id="documentation" aria-labelledby="documentation-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/06 — FIELD RECORDS</span>
+          <span class="section-node-label">// ARCHIVE_SYSTEM // LIGHTBOX_ENABLED</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="documentation-title">DOCUMENTED ACTION. REAL COLLABORATION.</h2>
+          <p class="section-subheading">
+            Rekam jejak kegiatan, forum musyawarah, dan keterlibatan aktif pemuda parlemen di Jawa Barat.
+          </p>
+        </div>
+
+        <!-- Filter Kategori Dokumentasi -->
+        <div class="doc-filter-bar">
+          <span class="tech-tag purple">// FILTER_CATEGORY:</span>
+          <div class="doc-filter-group">
+            <button type="button" class="filter-btn doc-filter-btn active" data-category="ALL">SEMUA ARSIP</button>
+            <button type="button" class="filter-btn doc-filter-btn" data-category="ORGANIZATION">ORGANIZATION</button>
+            <button type="button" class="filter-btn doc-filter-btn" data-category="AUDIENCE & DISCUSSION">AUDIENCE & DISCUSSION</button>
+            <button type="button" class="filter-btn doc-filter-btn" data-category="EDUCATION">EDUCATION</button>
+            <button type="button" class="filter-btn doc-filter-btn" data-category="COLLABORATION">COLLABORATION</button>
+            <button type="button" class="filter-btn doc-filter-btn" data-category="SOCIAL ACTION">SOCIAL ACTION</button>
+          </div>
+        </div>
+
+        <!-- Grid Arsip Galeri Dokumentasi -->
+        <div class="doc-grid" id="documentation-grid" aria-live="polite">
+          <!-- Documentation cards injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal untuk Dokumentasi -->
+    <div class="lightbox-modal" id="doc-lightbox-modal" role="dialog" aria-modal="true" aria-label="Penampil Dokumentasi Foto">
+      <div class="lightbox-window">
+        <div class="lightbox-header">
+          <span id="lightbox-code">// REC_VIEWER</span>
+          <span id="lightbox-category" class="tech-tag lime">RECORD</span>
+          <button type="button" class="lightbox-close-btn" id="lightbox-close" aria-label="Tutup penampil foto">[ESC / TUTUP ✕]</button>
+        </div>
+        <div class="lightbox-body">
+          <button type="button" class="lightbox-nav-btn lightbox-prev" id="lightbox-prev" aria-label="Foto Sebelumnya">‹</button>
+          <img src="" alt="" id="lightbox-img" class="lightbox-img-element">
+          <button type="button" class="lightbox-nav-btn lightbox-next" id="lightbox-next" aria-label="Foto Selanjutnya">›</button>
+        </div>
+        <div class="lightbox-footer">
+          <h3 class="lightbox-footer-title" id="lightbox-title"></h3>
+          <p class="lightbox-footer-desc" id="lightbox-desc"></p>
+          <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--primary-blue); margin-top: 0.5rem;" id="lightbox-meta"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         SECTION /07 — OFFICE LOCATION
+         ========================================================================== -->
+    <section class="section-block" id="location" aria-labelledby="location-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/07 — OFFICE NODE</span>
+          <span class="section-node-label">// GEOGRAPHICAL_LOCATOR</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="location-title">FIND OUR LOCATION.</h2>
+          <p class="section-subheading">
+            Informasi lokasi sekretariat DPW Pemuda Parlemen Indonesia Provinsi Jawa Barat.
+          </p>
+        </div>
+
+        <div class="office-grid">
+          <!-- Kolom Kiri: Informasi Sekretariat & Aksi -->
+          <div class="office-info-panel">
+            <div>
+              <div id="office-status-badge">
+                <!-- Status badge injected via JavaScript -->
+              </div>
+
+              <h3 class="office-name" id="office-name-display">
+                SEKRETARIAT DPW PPI JAWA BARAT
+              </h3>
+
+              <div class="office-pending-alert" id="office-pending-alert">
+                <strong>[STATUS: LOCATION DATA PENDING]</strong><br>
+                Penetapan alamat definitif sekretariat wilayah sedang dalam tahap sinkronisasi kelembagaan. Informasi koordinat di bawah ini merupakan referensi wilayah Kota Bandung sebagai pusat administrasi Provinsi Jawa Barat.
+              </div>
+
+              <div class="office-address-box">
+                <div class="office-address-text" id="office-address-display">
+                  Memuat data alamat...
+                </div>
+                <div class="office-city-badge" id="office-city-display">
+                  Kota Bandung, Jawa Barat
+                </div>
+              </div>
+            </div>
+
+            <div class="office-actions-row">
+              <a href="#" id="btn-open-maps" class="btn-brutalist">
+                <span>OPEN IN MAPS</span>
+                <span class="arrow-purple">↗</span>
+              </a>
+              <a href="#" id="btn-get-directions" class="btn-brutalist-outline">
+                <span>GET DIRECTIONS</span>
+                <span>↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Peta Interaktif & Frame Cyber Brutalist -->
+          <div class="office-map-panel">
+            <div class="office-map-topbar">
+              <span>// MAP_CONTAINER: OPENSTREETMAP_EMBED</span>
+              <span class="tech-tag purple">LAT_LNG: 6.9103S / 107.6200E</span>
+            </div>
+
+            <div class="office-map-frame">
+              <iframe id="office-map-iframe" title="Peta Lokasi DPW PPI Jawa Barat" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION /08 — CONTACT
+         ========================================================================== -->
+    <section class="section-block alt-bg" id="contact" aria-labelledby="contact-title">
+      <div class="container grid-border-container">
+        <div class="section-header-bar">
+          <span class="section-index">/08 — ESTABLISH CONNECTION</span>
+          <span class="section-node-label">// TRANSMISSION_GATEWAY</span>
+        </div>
+
+        <div class="section-title-wrap">
+          <h2 class="section-heading" id="contact-title">LET'S BUILD SOMETHING THAT MATTERS.</h2>
+          <p class="section-subheading">
+            Terbuka untuk audiensi, kolaborasi, pertukaran gagasan, dan kerja sama yang berdampak bagi masyarakat Jawa Barat.
+          </p>
+        </div>
+
+        <!-- 3 Panel Kontak Saluran Langsung -->
+        <div class="contact-channels-grid">
+          <!-- EMAIL -->
+          <div class="contact-channel-card">
+            <div>
+              <div class="channel-label">// 01: OFFICIAL EMAIL</div>
+              <div class="channel-val" id="channel-email-val">sekretariat@dpw-ppi-jabar.id</div>
+            </div>
+            <div>
+              <a href="#" id="btn-channel-email" class="channel-action-btn">
+                <span>SEND EMAIL</span>
+                <span class="arrow-purple">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- WHATSAPP -->
+          <div class="contact-channel-card">
+            <div>
+              <div class="channel-label">// 02: OFFICIAL WHATSAPP</div>
+              <div class="channel-val" id="channel-wa-val">+62 812-3456-7890</div>
+            </div>
+            <div>
+              <a href="#" id="btn-channel-wa" target="_blank" rel="noopener noreferrer" class="channel-action-btn">
+                <span>OPEN WHATSAPP</span>
+                <span class="arrow-purple">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- INSTAGRAM -->
+          <div class="contact-channel-card">
+            <div>
+              <div class="channel-label">// 03: OFFICIAL INSTAGRAM</div>
+              <div class="channel-val" id="channel-ig-val">@ppi_jawabarat</div>
+            </div>
+            <div>
+              <a href="#" id="btn-channel-ig" target="_blank" rel="noopener noreferrer" class="channel-action-btn">
+                <span>VISIT INSTAGRAM</span>
+                <span class="arrow-purple">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulir Kontak Transmisi Berstruktur -->
+        <div class="contact-form-section">
+          <div class="form-wrapper">
+            <form id="transmission-form" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="form-nama" class="form-label">Nama Lengkap *</label>
+                  <input type="text" id="form-nama" class="form-input" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Alamat Email *</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="nama@email.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-kategori" class="form-label">Kategori Keperluan *</label>
+                  <select id="form-kategori" class="form-select" required>
+                    <option value="Audiensi">Audiensi</option>
+                    <option value="Kerja Sama">Kerja Sama</option>
+                    <option value="Informasi Organisasi">Informasi Organisasi</option>
+                    <option value="Kegiatan">Kegiatan</option>
+                    <option value="Lainnya">Lainnya</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subjek" class="form-label">Subjek Pesan *</label>
+                  <input type="text" id="form-subjek" class="form-input" placeholder="Perihal pesan atau audiensi" required>
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="form-pesan" class="form-label">Isi Pesan / Keterangan *</label>
+                  <textarea id="form-pesan" class="form-textarea" placeholder="Tuliskan pesan, rincian gagasan, atau maksud audiensi Anda..." required></textarea>
+                </div>
+              </div>
+
+              <div class="form-footer-action">
+                <p class="form-notice">
+                  * Transmisi formulir akan disiapkan secara terstruktur langsung ke saluran resmi sekretariat. Pastikan data kontak Anda aktif.
+                </p>
+
+                <button type="submit" class="btn-brutalist">
+                  <span>TRANSMIT MESSAGE</span>
+                  <span class="arrow-purple">↗</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Pratinjau Transmisi Pesan -->
+    <div class="transmission-modal" id="transmission-modal" role="dialog" aria-modal="true" aria-label="Pratinjau Transmisi Pesan">
+      <div class="transmission-box">
+        <div class="transmission-header">
+          <span>// DISPATCH BUFFER PREVIEW</span>
+          <button type="button" id="transmission-modal-close" style="color: #fff; cursor: pointer;">[✕]</button>
+        </div>
+        <div class="transmission-body">
+          <p style="font-size: 0.9rem; color: var(--text-secondary);">
+            Pesan Anda telah divalidasi dan diformat ke dalam paket transmisi komunikasi resmi. Anda dapat langsung mengirimkannya melalui email client atau menyalin buffer teks:
+          </p>
+
+          <pre class="transmission-preview-log" id="transmission-log-preview"></pre>
+
+          <div class="transmission-actions">
+            <button type="button" class="btn-brutalist-outline" id="btn-copy-transmission">
+              COPY TEXT BUFFER
+            </button>
+            <a href="#" class="btn-brutalist" id="btn-direct-mailto">
+              <span>SEND VIA EMAIL CLIENT</span>
+              <span class="arrow-purple">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER — SYSTEM STATUS
+       ========================================================================== -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container grid-border-container">
+      <div class="footer-main-grid">
+        <!-- Kolom 1: Brand & Ringkasan -->
+        <div class="footer-col-brand">
+          <div style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.5rem;">
+            <img src="Gambar/ppi logo.jpeg" alt="Logo DPW PPI Jawa Barat" style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary-blue);">
+            <div>
+              <div class="footer-logo-text">PPI_JABAR</div>
+              <div style="font-family: var(--font-heading); font-size: 0.72rem; color: var(--primary-blue); font-weight: 700; letter-spacing: 0.05em;">DPW PROVINSI JAWA BARAT</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Dewan Pengurus Wilayah Pemuda Parlemen Indonesia Provinsi Jawa Barat. Wadah konsolidasi kepemimpinan, advokasi aspirasi, dan kolaborasi strategis pemuda Jawa Barat.
+          </p>
+          <div class="footer-copyright">
+            © <span id="copyright-year">2026</span> DPW PEMUDA PARLEMEN INDONESIA PROVINSI JAWA BARAT. ALL RIGHTS RESERVED.
+          </div>
+        </div>
+
+        <!-- Kolom 2: Navigasi Cepat -->
+        <div>
+          <div class="footer-col-heading">// NAVIGATION</div>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">01 // Profile & Home</a></li>
+            <li><a href="#about">02 // About Organization</a></li>
+            <li><a href="#direction">03 // Vision & Mission</a></li>
+            <li><a href="#structure">04 // Directory of Board</a></li>
+            <li><a href="#committees">05 // Conference Committees</a></li>
+            <li><a href="#documentation">06 // Field Records</a></li>
+            <li><a href="#location">07 // Office Location</a></li>
+            <li><a href="#contact">08 // Establish Connection</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Saluran Komunikasi -->
+        <div>
+          <div class="footer-col-heading">// DIRECT_CHANNELS</div>
+          <ul class="footer-nav-list">
+            <li><a href="mailto:sekretariat@dpw-ppi-jabar.id">Email: sekretariat@dpw-ppi-jabar.id</a></li>
+            <li><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">WhatsApp: +62 812-3456-7890</a></li>
+            <li><a href="https://instagram.com/ppi_jawabarat" target="_blank" rel="noopener noreferrer">Instagram: @ppi_jawabarat</a></li>
+            <li><a href="#location">Bandung, Jawa Barat, ID</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: Identitas Jawa Barat & Geo Radar Visual -->
+        <div>
+          <div class="footer-col-heading">// REGIONAL_NODE</div>
+          <div class="footer-geo-visual">
+            <span class="geo-node-badge">REGIONAL_NODE: WEST_JAVA</span>
+            PROVINSI JAWA BARAT<br>
+            KODE WILAYAH: ID-JB<br>
+            KORDINAT: [-06.9175°, 107.6191°]<br>
+            CIVIC_SECTOR: PARLIAMENTARY_YOUTH<br>
+            NETWORK_STATUS: OPERATIONAL
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Status Bar -->
+      <div class="footer-status-bar">
+        <div class="status-indicator-wrap">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span class="status-label">CONNECTION ESTABLISHED</span>
+        </div>
+
+        <div>
+          <span class="status-badge-purple">// END OF TRANSMISSION</span>
+        </div>
+
+        <div class="status-telemetry-code">
+          NODE_SYS: [DPW-PPI-JABAR-REV2026.04]
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="btn-back-to-top" id="back-to-top-btn" aria-label="Kembali ke atas halaman">
+    ↑
+  </button>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

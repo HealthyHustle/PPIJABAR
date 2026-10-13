@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80" fill="none">
+  <!-- Cyber Brutalist Logo Mark -->
+  <rect x="2" y="2" width="76" height="76" fill="#101010" stroke="#101010" stroke-width="2"/>
+  <rect x="8" y="8" width="64" height="64" fill="none" stroke="#D7FF35" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Geometric Parliamentary / Monogram Icon -->
+  <path d="M40 18 L60 38 L52 38 L52 58 L28 58 L28 38 L20 38 Z" fill="#F7F7F7"/>
+  <path d="M34 46 H46 V58 H34 Z" fill="#9747FF"/>
+  <circle cx="40" cy="28" r="3" fill="#D7FF35"/>
+  <line x1="16" y1="62" x2="64" y2="62" stroke="#D7FF35" stroke-width="2"/>
+
+  <!-- Technical Node Text -->
+  <text x="92" y="28" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#9747FF" letter-spacing="2">DPW // JAWA BARAT</text>
+  <text x="92" y="48" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700" fill="#101010" letter-spacing="1">PPI_JABAR</text>
+  <text x="92" y="66" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="500" fill="#555555" letter-spacing="1.5">[LOGO_PPI: PARLIAMENT_NODE]</text>
+</svg>
